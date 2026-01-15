@@ -40,7 +40,7 @@ export default function App() {
   };
 
   return (
-    <View style={{ padding: 20 }}>
+    <View style>
       <TextInput
         placeholder="Nuevo TODO"
         value={title}
