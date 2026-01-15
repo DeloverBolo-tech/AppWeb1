@@ -17,7 +17,7 @@ export default function App() {
 
   const saveTodo = async () => {
     try {
-      const response = await fetch('https://appexpo-3.onrender.com:/todos', {
+      const response = await fetch('https://appexpo-3.onrender.com/todos', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
